@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Sokarev | Portfolio | FrontEnd Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Play:wght@400;700&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="header__inner">
+
+                <ul class="menu">
+                    <li class="menu__list active">
+                        <a class="lsf-icon menu__list-link active user" href="#tab-1" style="transition-delay: 6s">
+                            <span>Me</span></a>
+                    </li>
+                    <li class="menu__list">
+                        <a class="lsf-icon menu__list-link folder" href="#tab-2" style="transition-delay: 8s">
+                            <span> Work</span></a>
+                    </li>
+                    <li class="menu__list">
+                        <a class="lsf-icon menu__list-link mail" href="#tab-3" style="transition-delay: 10s">
+                            <span>E-mail</span></a>
+                    </li>
+                    <li class="menu__list">
+                        <a class="menu__social lsf-icon facebook" href="https://www.facebook.com/john.sokarev" style="transition-delay: 12s">
+                            <span>Facebook</span></a>
+                    </li>
+                    <li class="menu__list">
+                        <a class="menu__social lsf-icon vk" href="https://vk.com/john.sokarev" style="transition-delay: 14s">
+                            <span>VK</span></a>
+                    </li>
+                    <li class="menu__list">
+                        <a class="menu__social lsf-icon instagram" href=" https://www.instagram.com/evgeniy.sokarev" style="transition-delay: 16s">
+                            <span>Instagram</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <main class="main">
+        <div class="container">
+            <div class="main__content">
+                <section class="main__content-tab active" id="tab-1">
+                    <div class="logo">
+                        <div class="logo__images">
+                            <img class="logo__pictures" src="images/logo_min.png" alt="">
+                        </div>
+                        <div class="logo__title">
+                            <h1 class="title">John Sokarev</h1>
+                            <span>frontend developer</span>
+                        </div>
+                        <div class="logo__abbr">
+                            <span>J &nbsp; S</span>
+
+                        </div>
+                        <p class="logo__text"> Когда наступает желание сменить свой род деятельности, то нужно прилагать максимум к достижению своей цели.</p>
+                    </div>
+
+
+
+
+                </section>
+
+                <section class="main__content-tab" id="tab-2">
+                    <h2 class="title">Мои работы</h2>
+                    <p class="text">В данной части я приведу примеры своих работ. Каждый проект разрабатывается как с нуля, так и по макетам. Макеты использую в программах figma, photoshop, avocode. Люблю красивый и читаемый код, использую методологию БЭМ.</p>
+                    <p class="text">Знания HTML, CSS, JQUERY. В основном проекты построены с помощью Flex. Верстаю в Visual Studio Code + Gulp + SCSS. Использую Node Package Manager. </p>
+                    <p class="text">Каждый проект адаптируется под все устройства.</p>
+                    <div class="box">
+                        <a class="box__item" href="http://c90347s0.beget.tech/">
+                            <img src="images/serf.jpg" alt="" class="box__pic"> </a>
+                        <a class="box__item" href="https://sokarev.github.io/marketing/">
+                            <img class="box__pic" src="images/marketing.jpg" alt=""> </a>
+                        <a class="box__item" href="https://sokarev.github.io/glee-go/">
+                            <img src="images/mebel.jpg" alt="" class="box__pic"> </a>
+                        <a class="box__item" href="http://razvarka.pro">
+                            <img src="images/razvarka.jpg" alt="" class="box__pic"> </a>
+                        <a class="box__item" href="https://sokarev.github.io/stavdezpro/">
+                            <img src="images/stavdez.jpg" alt="" class="box__pic"> </a>
+                        <a class="box__item" href="https://sokarev.github.io/belt/">
+                            <img src="images/belt.jpg" alt="" class="box__pic"> </a>
+
+                    </div>
+                </section>
+
+                <section class="main__content-tab contact" id="tab-3">
+                    <h2 class="title">Напиши мне</h2>
+                    <form class="contact__form">
+                        <!-- Hidden Required Fields -->
+                        <input type="hidden" name="project_name" value="sokarev.portfolio">
+                        <input type="hidden" name="admin_email" value="lover@list.ru">
+                        <input type="hidden" name="form_subject" value="form">
+                        <!-- END Hidden Required Fields -->
+
+                        <input class="contact__name" type="text" name="Имя" placeholder="Ваше имя *" required>
+                        <input class="contact__email" type="text" name="email" required placeholder="Ваш E-mail *" required>
+                        <input class="contact__phone" type="text" name="Телефон" placeholder="Номер телефона: *" required>
+                        <textarea class="contact__textarea" rows="5" name="Сообщение" cols="30" placeholder="Сообщение: * " required></textarea>
+
+                        <button class="contact__submit">Отправить сообщение</button>
+                    </form>
+                </section>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__social">
+
+
+                    <a class="footer__social-link" href="https://www.facebook.com/john.sokarev">
+                        <img class="footer__social-icon" src="images/icons/facebook.svg" alt="Иконка facebook">
+                    </a>
+                    <a class="footer__social-link" href="https://www.instagram.com/evgeniy.sokarev">
+                        <img class="footer__social-icon" src="images/icons/instagram.svg" alt="Иконка instagram">
+                    </a>
+                    <a class="footer__social-link" href="https://t.me/j_sokarev">
+                        <img class="footer__social-icon" src="images/icons/telegram.svg" alt="Иконка telegram">
+                    </a>
+                    <a class="footer__social-link" href="https://vk.com/john.sokarev">
+                        <img class="footer__social-icon" src="images/icons/vk.svg" alt="Иконка vk">
+                    </a>
+                    <a class="footer__social-link" href="https://wapp.click/79034735971">
+                        <img class="footer__social-icon" src="images/icons/whatsapp.svg" alt="Иконка whatsapp">
+                    </a>
+
+                </div>
+                <p class="footer__copy"> &copy; Copyright 2021 FrontEnd Developer <a class="footer__link" href="https://t.me/j_sokarev">John Sokarev</a> </p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
